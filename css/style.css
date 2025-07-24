@@ -5,11 +5,15 @@
 }
 body {
   font-family: "Inter", sans-serif;
-    background: #F5F8FF;
+  background: #f5f8ff;
 }
 /* Section  */
 .section {
   padding-top: 50px;
+  padding-bottom: 50px;
+}
+.section_2 {
+  padding-top: 150px;
   padding-bottom: 50px;
 }
 
@@ -42,16 +46,16 @@ body {
 }
 .nav-items ul li a {
   text-decoration: none;
-  color: #8987A1;
+  color: #8987a1;
   font-weight: 500;
 }
 .nav-items .active a {
   color: #000;
 }
 .pricing {
-    display: flex;
-    gap: 10px;
-    align-items: center;
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 
 /* Banner Section  */
@@ -62,88 +66,172 @@ body {
   margin-top: 120px;
 }
 .banner h1 {
-  font-family: 'Noto Serif';
-font-style: normal;
-font-weight: 700;
-font-size: 65px;
-line-height: 1.2;
-color: #000000;
-margin-bottom: 14px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 1.2;
+  color: #000000;
+  margin-bottom: 14px;
 }
 .banner-text {
-max-width: 35%;
+  max-width: 35%;
 }
 .banner h1 span {
-    color: #E95A08;
+  color: #e95a08;
 }
 .banner-text p {
-font-size: 22px;
-line-height: 1.6;
-color: rgba(0, 0, 0, 0.5);
+  font-size: 22px;
+  line-height: 1.6;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 /* ********************* Our Plants Section ********************* */
 .plants_items .plants_items_text {
-    text-align: center;
-    max-width: 56%;
-    margin-left: auto;
-    margin-right: auto;
+  text-align: center;
+  max-width: 56%;
+  margin-left: auto;
+  margin-right: auto;
 }
-.plants_items .plants_items_text h2{
-   font-family: 'Noto Serif';
-font-weight: 700;
-font-size: 50px;
-line-height: 1.2;
-text-align: center;
-color: #000000;
-margin-bottom: 16px;
+.plants_items .plants_items_text h2 {
+  font-family: "Noto Serif";
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.2;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 16px;
 }
-.plants_items .plants_items_text h2 span{
-color: #E95A08;
+.plants_items .plants_items_text h2 span {
+  color: #e95a08;
 }
 .plants_items .plants_items_text p {
-font-size: 22px;
-line-height: 1.6;
-text-align: center;
-color: rgba(0, 0, 0, 0.5);
+  font-size: 22px;
+  line-height: 1.6;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
 }
 
-.plants_items .plants_items_cards .card h3{
-    font-size: 22px;
-    line-height: 1.2;
-    color: #111111;
-    text-align: center;
-    font-weight: 500;
-    margin-bottom: 20px;
+.plants_items .plants_items_cards .card h3 {
+  font-size: 22px;
+  line-height: 1.2;
+  color: #111111;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 20px;
 }
-.plants_items .plants_items_cards .card p{
-    font-size: 22px;
-    line-height: 1.2;
-    color: #111111;
-    text-align: center;
-    font-weight: 700;
-    margin-bottom: 30px;
+.plants_items .plants_items_cards .card p {
+  font-size: 22px;
+  line-height: 1.2;
+  color: #111111;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 30px;
 }
 button {
-    background: #E95A08;
-    width: 270px;
-height: 50px;
-    color: #FFFFFF;
-    font-size: 18px;
-    border: none;
-    transition: background-color 0.3s ease;
-    text-align: center;
+  background: #e95a08;
+  width: 270px;
+  height: 50px;
+  color: #ffffff;
+  font-size: 18px;
+  border: none;
+  transition: background-color 0.3s ease;
+  text-align: center;
 }
 .card {
-    max-width: 360px;
-    margin: 0 auto;
+  max-width: 360px;
+  margin: 0 auto;
 }
 .card img {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 .plants_items_cards {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
-    margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-top: 50px;
 }
+
+/* <!-- ********************Flower & Plants Lover Section******************** --> */
+.flowr_plant {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.images_010 {
+  position: relative;
+}
+
+.image_badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.image_badge img {
+  width: 286px;
+}
+.image_badge {
+  position: absolute;
+  top: -20%;
+  right: -23%;
+}
+.flowr_plant_text ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.flowr_plant_text h2 {
+  font-family: "Noto Serif";
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.2;
+  color: #000000;
+  margin-bottom: 20px;
+  max-width: 61%;
+}
+.flowr_plant_text li {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.6;
+  color: rgba(0, 0, 0, 0.5);
+}
+.flowr_plant_text {
+  max-width: 45%;
+  margin-left: auto;
+}
+/* <!-- ********************Flower & Plants Lover Section******************** --> */
+
+/* <!-- ********************Latest  Deals******************** --> */
+.letest_deals {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.deals_01 {
+    background-image: url("../images/deal-bloom.png");
+    width: 366px;
+    text-align: center;
+    border-radius: 14px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    gap: 20px;
+    position: relative;
+}
+.deals_01::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0000004f;
+}
+.deals_01 h2, p {
+    position: relative;
+    z-index: 1;
+}
+/* <!-- ********************Latest  Deals******************** --> */
