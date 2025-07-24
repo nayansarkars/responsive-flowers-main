@@ -9,380 +9,133 @@ body {
 }
 /* Section  */
 .section {
-  padding: 100px 0 50px 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-.section_2 {
-  padding: 50px 0 50px 0;
-}
-.section_3 {
-  padding: 50px 0 100px 0;
-}
-.logo a{
-    font-family: Inter;
-    font-size: 34px;
-    font-style: normal;
-    font-weight: 900;
-    color: #4E47FF;
-    text-transform: uppercase;
-    line-height: 1.2;
-    text-decoration: none;
-}
+
 .container {
   width: 80%;
   margin: 0 auto;
 }
-/* Header Styles */
-header {
-    background-image: url('../images/Hero-bg.png');
-  background-color: #f8f9fa;
-  padding: 20px 0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-nav {
+.navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
+  padding-top: 24px;
+}
+.logo {
+  max-width: 135px;
+}
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48px;
+}
+.nav-items ul {
+  display: flex;
+  list-style: none;
+  gap: 48px;
+}
+.nav-items ul li {
+  margin: 0 15px;
+}
+.nav-items ul li a {
+  text-decoration: none;
+  color: #8987A1;
+  font-weight: 500;
+}
+.nav-items .active a {
+  color: #000;
+}
+.pricing {
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
 
-/* Signup Button Styles */
-.btn_primary {
-  background-color: #4e47ff;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s ease;
-  text-align: center;
-  font-family: Raleway;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.6;
-  border-radius: 10px;
-}
-
-.btn_primary:hover {
-  background-color: #0056b3;
-}
-
-/* Banner Section Styles */
+/* Banner Section  */
 .banner {
-    margin: 120px auto;
-    max-width: 70%;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    row-gap: 48px;
-}
-.banner h1{
-color: #252432;
-text-align: center;
-font-family: Raleway;
-font-size: 65px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-}
-
-/* Action Section Styles */
-.action {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  align-items: center;
-  margin-top: 20px;
-
+  margin-top: 120px;
 }
-.action h2 {
-color: #252432;
-font-family: Raleway;
-font-size: 42px;
+.banner h1 {
+  font-family: 'Noto Serif';
 font-style: normal;
 font-weight: 700;
-line-height: normal;
-}
-.action p {
-color: rgba(37, 36, 50, 0.50);
-font-family: Raleway;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px; /* 125% */
-}
-.action-text {
-  display: flex;
-  flex-direction: column;
-  row-gap: 24px;
-    max-width: 35%;
-}
-.action img {
-border-radius: 48px;
-
-}
-
-/* User Section Style */
-.Users {
-text-align: center;
-border-radius: 24px;
-background: rgba(78, 71, 255, 0.10);
-padding: 50px 80px;
-}
-.Users h2 {
-color: #252432;
-text-align: center;
-font-family: Raleway;
-font-size: 38px;
-font-style: normal;
-font-weight: 700;
-margin-bottom: 40px;
-}
-.user-count {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    column-gap: 164px;
-}
-
-.user-count h3{
-color: #4E47FF;
-font-family: Inter;
-font-size: 80px;
-font-style: normal;
-font-weight: 700;
-}
-.user-count p {
-    color: rgba(0, 0, 0, 0.50);
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-/* Testimonial Section Styles */
-.testimonials h2{
- color: #252432;
-text-align: center;
-font-family: Raleway;
-font-size: 38px;
-font-style: normal;
-font-weight: 700;
-margin-bottom: 40px; */
-}
-.testi_card1_text h4 {
-font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 1.2;
-color: #1E1E1E;
-margin-bottom: 8px;
-margin-top: 24px;
-}
-.testi_card1_text p {
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.6;
-color: #1E1E1E;
-}
-.imag_text {
-  display: flex;
-  align-items: center;
-  margin-top: 16px;
-}
-.imag_text h5  {
-font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 1.2;
-color: #757575;
-}
-.imag_text p {
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.2;
-color: #B3B3B3;
-}
-.imag_text img {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  margin-right: 12px;
-}
-.imag_text div {
-  margin-right: 12px;
-}
-.testi_card1 {
-    background: rgba(255, 255, 255, 0.5);
-    border: 1px solid #F2EDED;
-    border-radius: 14px;
-    padding: 24px;
-}
-.testimonial_card {
-    display: flex;
-    column-gap: 24px;
-}
-
-/* Ready to focus better style  */
-.ready_to_focus {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: #FFFFFF;
-border-radius: 14px;
-padding: 71px 150px;
-}
-.ready_to_focus_text {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-    row-gap: 20px;
-}
-.ready_to_focus h2 {
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 50px;
-line-height: 120%;
-color: #000000;
-}
-.ready_to_focus p {
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 140%;
-color: rgba(0, 0, 0, 0.5);
-}
-.ready_to_focus img {
-border-radius: 48px;
-margin-top: 20px;
-}
-
-
-/* Get Started style  */
-.get_started {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.get_started h2 {
-  font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 97px;
+font-size: 65px;
 line-height: 1.2;
 color: #000000;
+margin-bottom: 14px;
+}
+.banner-text {
 max-width: 35%;
 }
-.get_started form {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    row-gap: 19px;
+.banner h1 span {
+    color: #E95A08;
 }
-.get_started form input {
-  padding: 20px 32px;
-width: 497px;
-height: 70px;
-background: #FFFFFF;
-border: 1px solid #D6DDED;
-border-radius: 10px;
-margin-top: 12px;
-}
-.get_started form textarea {
-padding: 20px 32px;
-width: 497px;
-height: 135px;
-background: #FFFFFF;
-border: 1px solid #D6DDED;
-border-radius: 10px;
-margin-top: 12px;
-}
-.get_started form .btn-get-in-touch {
-  background-color: #4e47ff;
-  color: white;
-  border: none;
-  padding: 19px 101px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s ease;
-  text-align: center;
-  font-family: Raleway;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.6;
-  border-radius: 10px;
-  align-items: center;
-  width: 100%;
-  margin-top: 19px;
-}
-.get_started form .btn-get-in-touch:hover {
-  background-color: #0056b3;
-}
-.get_started form input,textarea::placeholder {
-  font-family: 'Inter';
-font-weight: 400;
-font-size: 20px;
-line-height: 1.2;
+.banner-text p {
+font-size: 22px;
+line-height: 1.6;
 color: rgba(0, 0, 0, 0.5);
 }
-/* Footer style  */
-.footer {
-    background: #ffffff;
+
+/* ********************* Our Plants Section ********************* */
+.plants_items .plants_items_text {
+    text-align: center;
+    max-width: 56%;
+    margin-left: auto;
+    margin-right: auto;
 }
-.footer_content {
-    color: white;
-    padding: 40px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    row-gap: 24px;
-}
-.footer_content h2 {
-   font-family: 'Inter';
-font-style: normal;
-font-weight: 900;
-font-size: 100px;
+.plants_items .plants_items_text h2{
+   font-family: 'Noto Serif';
+font-weight: 700;
+font-size: 50px;
 line-height: 1.2;
 text-align: center;
-color: #4E47FF;
+color: #000000;
+margin-bottom: 16px;
 }
-.footer_content p {
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
+.plants_items .plants_items_text h2 span{
+color: #E95A08;
+}
+.plants_items .plants_items_text p {
+font-size: 22px;
 line-height: 1.6;
 text-align: center;
-color: #8987A1;
-max-width: 530px;
+color: rgba(0, 0, 0, 0.5);
 }
-.footer_content a {
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.2;
-color: #8987A1;
-text-decoration: none;
+
+.plants_items .plants_items_cards .card h3{
+    font-size: 22px;
+    line-height: 1.2;
+    color: #111111;
+    text-align: center;
 }
-.footer_content a:hover {
-  color: #4E47FF;
+.plants_items .plants_items_cards .card p{
+    font-size: 22px;
+    line-height: 1.2
+    color: #111111;
+    text-align: center;
 }
-.footer_links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 48px;
+button {
+    background: #E95A08;
+    width: 270px;
+height: 50px;
+    color: #FFFFFF;
+    font-size: 18px;
+    border: none;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+.card {
+    max-width: 360px;
+}
+.plants_items_cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 50px;
 }
