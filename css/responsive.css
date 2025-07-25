@@ -1,7 +1,8 @@
 @media screen and (max-width: 768px) {
-  body {
-    max-width: 100% !important;
-  }
+    .container {
+        max-width: 98% !important;
+        margin: 0 auto !important;
+    }
   body h1,
   h2 {
     font-size: 24px !important;
@@ -9,6 +10,12 @@
   .section,
   .section_2 {
     overflow: hidden !important;
+  }
+  .section_2 {
+    padding-top: 0px !important;
+  }
+  .banner_image {
+    max-width: 360px;
   }
   .logo {
     max-width: 63px;
@@ -47,11 +54,52 @@
     max-width: 100%;
   }
 
+  .letest_deals {
+    flex-direction: column;
+  }
+  .deals_03 {
+    width: 366px;
+    height: 200px;
+  }
   .letest_dealsitems_text {
     max-width: 100%;
   }
   form {
     flex-direction: column;
-    rog-gap: 20px;
+    row-gap: 20px;
+    align-items: center;
   }
+  .join_us {
+    width: 366px;
+    height: 200px;
+    margin: 0 auto;
+    margin-left: -34px !important;
+  }
+  input {
+    width: 343px;
+    margin: 0 auto !important;
+  }
+  .letest_dealsitems_text {
+    margin-bottom: 40px;
+}
+.banner-text p {
+    font-size: 16px;
+}
+.plants_items_text p {
+    font-size: 16px !important;
+}
+.banner h1, p {
+    text-align: center;
+}
+.flowr_plant_text li {
+    font-size: 16px !important;
+    text-align: center;
+}
+.flowr_plant_text h2 {
+    max-width: 100% !important;
+    text-align: center;
+}
+.letest_dealsitems_text p {
+    font-size: 16px;
+}
 }
