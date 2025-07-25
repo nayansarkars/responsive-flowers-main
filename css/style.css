@@ -204,8 +204,9 @@ button {
 /* <!-- ********************Latest  Deals******************** --> */
 .letest_deals {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 24px;
 }
 .deals_both {
   display: flex;
@@ -302,7 +303,7 @@ p {
   width: 753px;
   text-align: center;
   border-radius: 14px;
-  height: 200px;
+  height: 424px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -339,4 +340,44 @@ p {
   line-height: 1.2;
   text-decoration-line: underline;
 }
+.letest_dealsitems_text {
+  text-align: center;
+  max-width: 56%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 120px;
+}
+.letest_dealsitems_text h2 {
+  font-family: "Noto Serif";
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.2;
+  color: #000000;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.letest_dealsitems_text p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.6;
+  color: rgba(0, 0, 0, 0.5);
+}
 /* <!-- ********************Latest  Deals******************** --> */
+
+.join_us {
+  background-image: url("../images/news-letter-bg.png");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  border-radius: 14px;
+  height: 553px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  gap: 20px;
+  position: relative;
+  overflow: hidden;
+}
