@@ -1,0 +1,57 @@
+@media screen and (max-width: 768px) {
+  body {
+    max-width: 100% !important;
+  }
+  body h1,
+  h2 {
+    font-size: 24px !important;
+  }
+  .section,
+  .section_2 {
+    overflow: hidden !important;
+  }
+  .logo {
+    max-width: 63px;
+  }
+
+  .nav-items ul {
+    display: none;
+  }
+
+  .banner {
+    flex-direction: column-reverse;
+    row-gap: 42px;
+  }
+
+  .banner-text {
+    max-width: 100%;
+  }
+
+  .plants_items_text {
+    max-width: 100% !important;
+  }
+
+  .plants_items_cards {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+
+  .flowr_plant {
+    flex-direction: column;
+    row-gap: 42px;
+  }
+  .image_badge {
+    display: none;
+  }
+
+  .flowr_plant_text {
+    max-width: 100%;
+  }
+
+  .letest_dealsitems_text {
+    max-width: 100%;
+  }
+  form {
+    flex-direction: column;
+    rog-gap: 20px;
+  }
+}
