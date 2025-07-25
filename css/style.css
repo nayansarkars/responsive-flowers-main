@@ -383,24 +383,65 @@ p {
   overflow: hidden;
 }
 .join_us h2 {
-    font-family: 'Noto Serif';
-font-weight: 700;
-font-size: 50px;
-line-height: 1.2;
-text-align: center;
-color: #FFFFFF;
+  font-family: "Noto Serif";
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.2;
+  text-align: center;
+  color: #ffffff;
 }
 
 form {
-    display: flex;
-
+  display: flex;
 }
 input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 20px;
+  gap: 10px;
+  width: 644px;
+  height: 50px;
+}
+
+/* Footer  */
+.footer_items {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+/* .one_list ul li {
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 1.2;
+    color: #6B7280;
+    margin-bottom: 32px;
+} */
+.one_list ul li {
+  list-style-type: none !important;
+  color: #6b7280;
+  margin-bottom: 32px;
+}
+.one_list ul li a {
+  color: #6b7280;
+  text-decoration: none;
+}
+.socila_icon {
     display: flex;
-flex-direction: row;
-align-items: center;
-padding: 8px 20px;
-gap: 10px;
-width: 644px;
-height: 50px;
+    align-items: center;
+    gap: 24px;
+}
+.logo_text p {
+    font-size: 22px;
+    line-height: 1.6;
+    color: rgba(0, 0, 0, 0.5);
+    max-width: 58%;
+}
+.logo_text img {
+    margin-bottom: 24px;
+}
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }

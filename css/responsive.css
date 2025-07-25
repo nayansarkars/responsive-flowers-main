@@ -102,4 +102,12 @@
 .letest_dealsitems_text p {
     font-size: 16px;
 }
+.footer_items {
+    flex-direction: column;
+    row-gap: 42px;
+}
+.logo_text p {
+    max-width: 100%;
+    text-align: start;
+}
 }
